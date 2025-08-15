@@ -44,7 +44,7 @@ const OccupationalHealthSafety = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920&h=1080&fit=crop"
-        title="Occupational Health & <span class='text-primary'>Safety</span>"
+        title="Occupational Health & <span class='text-white'>Safety</span>"
         subtitle="Protecting our workforce through rigorous safety standards, training, and continuous monitoring."
       />
 
@@ -149,7 +149,7 @@ const OccupationalHealthSafety = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-millat-teal text-white">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -160,7 +160,7 @@ const OccupationalHealthSafety = () => {
             </p>
             <Link 
               to="/compliance/environmental-standards" 
-              className="bg-white text-primary hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
+              className="bg-white text-blue-900 hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
             >
               <span>Environmental Standards</span>
               <ArrowRight className="h-5 w-5" />

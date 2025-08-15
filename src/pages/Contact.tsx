@@ -46,7 +46,7 @@ const Contact = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="/images/footer-bg.jpg"
-        title="<span class='text-gray-300'>Contact</span> Us"
+        title="<span class='text-white'>Contact</span> Us"
         subtitle="We're here to help with your polymer needs. Whether you have a question about our products, need a custom quote, or want to discuss a project, please get in touch."
       />
 
@@ -55,29 +55,6 @@ const Contact = () => {
         className="section-padding bg-gray-300"
       >
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-8 mb-16">
-            <div className="slide-in-left">
-              <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
-                alt="Customer Service Team"
-                className="rounded-2xl shadow-lg w-full h-auto scale-hover"
-              />
-            </div>
-            <div className="scale-in">
-              <img
-                src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
-                alt="Manufacturing Facility"
-                className="rounded-2xl shadow-lg w-full h-auto scale-hover"
-              />
-            </div>
-            <div className="slide-in-right">
-              <img
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop"
-                alt="Quality Assurance"
-                className="rounded-2xl shadow-lg w-full h-auto scale-hover"
-              />
-            </div>
-          </div>
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="slide-in-left">

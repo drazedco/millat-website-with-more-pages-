@@ -44,7 +44,7 @@ const EnvironmentalStandards = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1920&h=1080&fit=crop"
-        title="Environmental <span class='text-primary'>Standards</span>"
+        title="Environmental <span class='text-white'>Standards</span>"
         subtitle="Eco-conscious manufacturing for a sustainable future"
       />
 
@@ -149,7 +149,7 @@ const EnvironmentalStandards = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-millat-teal text-white">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -160,7 +160,7 @@ const EnvironmentalStandards = () => {
             </p>
             <Link 
               to="/csr-initiatives" 
-              className="bg-white text-primary hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
+              className="bg-white text-blue-900 hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
             >
               <span>CSR Initiatives</span>
               <ArrowRight className="h-5 w-5" />

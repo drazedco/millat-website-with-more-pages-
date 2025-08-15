@@ -52,7 +52,7 @@ const VisionMissionValues = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&h=1080&fit=crop"
-        title="Vision, Mission & <span class='text-primary'>Values</span>"
+        title="Vision, Mission & <span class='text-white'>Values</span>"
         subtitle="Our principles define our path — driving innovation, quality, and sustainable growth in everything we do."
       />
 
@@ -130,7 +130,7 @@ const VisionMissionValues = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-millat-teal text-white">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -141,7 +141,7 @@ const VisionMissionValues = () => {
             </p>
             <Link 
               to="/csr-initiatives" 
-              className="bg-white text-primary hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
+              className="bg-white text-blue-900 hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
             >
               <span>Explore CSR Initiatives</span>
               <ArrowRight className="h-5 w-5" />

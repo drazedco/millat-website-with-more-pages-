@@ -31,7 +31,7 @@ const ProductCustomization = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="https://i.postimg.cc/bY6q95Xg/mass-customization.jpg"
-        title="Product <span class='text-primary'>Customization</span>"
+        title="Product <span class='text-white'>Customization</span>"
         subtitle="Tailored polymer and rubber solutions to meet unique requirements"
       />
 
@@ -133,7 +133,7 @@ const ProductCustomization = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-secondary text-white">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -142,7 +142,7 @@ const ProductCustomization = () => {
             <p className="text-xl mb-8 opacity-90">
               Contact us to begin crafting a solution uniquely suited to your application needs.
             </p>
-            <Link to="/contact" className="bg-white text-secondary hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2">
+            <Link to="/contact" className="bg-white text-blue-900 hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2">
               <span>Contact Us for Custom Orders</span>
               <ArrowRight className="h-5 w-5" />
             </Link>

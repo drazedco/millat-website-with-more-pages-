@@ -51,7 +51,7 @@ const SupplyChainLogistics = () => {
       {/* Hero Banner */}
       <HeroBanner
         backgroundImage="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&h=1080&fit=crop"
-        title="Supply Chain & <span class='text-primary'>Logistics</span>"
+        title="Supply Chain & <span class='text-white'>Logistics</span>"
         subtitle="Global delivery efficiency and dependable supply chain management for industrial components."
       />
 
@@ -167,7 +167,7 @@ const SupplyChainLogistics = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-secondary text-white">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -178,7 +178,7 @@ const SupplyChainLogistics = () => {
             </p>
             <Link 
               to="/contact" 
-              className="bg-white text-secondary hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
+              className="bg-white text-blue-900 hover:bg-gray-50 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-flex items-center space-x-2"
             >
               <span>Contact Us</span>
               <ArrowRight className="h-5 w-5" />
